@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTML</title>
+    <script>
+        function validateForm() {
+            let x = document.forms['myForm']['fname'].value
+            if (x == '') {
+                alert('Nama tidak boleh kosong');
+                return false
+            }
+
+        }
+    </script>
+    <style>
+        .text-kuning {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Hari ini belajar HTML -->
+    <A href="https://prakerja.arkademi.com/">Prakerja</A>
+    Kursus Online dari
+    <b>Kursus Online dari Lembaga Pelatihan</b>
+
+    <h1>Kursus Online</h1>
+    <img />
+
+    <a href="https://prakerja.arkademi.com/">
+        <img src="https://arkademi.com/_next/static/media/logo_biru.742ab4c7.svg" alt="hello" />
+    </a>
+
+    <img src="./gradient-particle-wave-backgrounjhdfjksdbcd.avif" alt="gambar background" /><br><br>
+
+    <mark class="text-kuning">Arkademi adalah Lembaga Kursus dan Pelatihan resmi berlisensi dari Kementerian Pendidikan,
+        Kebudayaan, Riset,
+        dan Teknologi RI</mark><br>
+    <p class="text-kuning">Arkademi adalah Lembaga Kursus dan Pelatihan resmi berlisensi dari Kementerian Pendidikan,
+        Kebudayaan, Riset,
+        dan Teknologi RI</p>
+
+    <form name="myForm" onsubmit="return validateForm()">
+        Email: <br><input type="text" name="fname" />
+        <input type="submit" value="Submit" />
+    </form>
+    <br><br>
+    <table>
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Alamat</th>
+                <th>No Hp</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sarah</td>
+                <td>Bandung</td>
+                <td>0945743593</td>
+            </tr>
+            <tr>
+                <td>Nia</td>
+                <td>Jakarta</td>
+                <td>576548</td>
+            </tr>
+            <tr>
+                <td>Raka</td>
+                <td>Lampung</td>
+                <td>324t7</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

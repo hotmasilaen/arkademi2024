@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar javascript</title>
+</head>
+
+<body>
+    <p id="root"></p>
+    <script>
+        // const nama = "Farhan";
+        // const naMa = "Nia";
+        // const naMA = "Nia"
+
+        // const nama = "jakarta"
+        const namaIbu = "Mirna"
+        let noHp = "083267482423"
+        noHp = "021564657400"
+        console.log(noHp);
+        // alert(noHp)
+
+
+        document.getElementById('root').innerHTML = namaIbu
+
+        const number1 = 1000
+        const number2 = '100'
+        console.log(number1 + number2);
+
+        const tas = 250000;
+        const diskon = 0.01
+        const harga_bayar = tas - (tas * diskon)
+        console.log(harga_bayar);
+
+        const password = '123456'
+        const user = 123456
+        console.log('Apakah password dan user sama?', password == user);
+        if (password == user) {
+            // alert('user bisa login')
+        }
+        console.log(password === user);
+        console.log('rollback', password != user);
+
+        const nama = 'brian capah tarune'
+        console.log(nama.length);
+
+        if (noHp.length < 12) {
+            alert('nomor hp kurang dari 12 digit')
+        }
+
+        const noWA = '0823645386349'
+        console.log(noWA.slice(0, 2));
+
+        console.log('Number 1');
+        console.log('Number 2');
+        console.log('Number 3');
+
+        for (var i = 0; i < 5; i++) {
+            console.log('Number:', +  i);
+        }
+
+        const data = ['Apple', 'Banana', 'manggo']
+        const dataBaru = data.push('Orange')
+        console.log(dataBaru);
+
+        for (var i = 1; i < data.length; i++) {
+            document.getElementById.namaIbu = "<p>" + "new Standing" + " </p>"
+
+            console.log(data[i]);
+        }
+
+        function sum(x, y, z) {
+            let result = x + y;
+            return result
+        }
+
+        console.log(sum(20, 40)); // const number2 = 20  + 40
+        console.log(sum(40, 40)); // const number3 = 40  + 60
+        console.log(sum(20555, 40342));
+
+
+
+    </script>
+</body>
+
+</html>
